@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title" style="--bg:#fcfdfc;--panel:#f2f6f3;--ink:#14261f;--muted:#53665b;--line:#dae5dc;--accent:#178262">
+<title id="title">Akshat Mishra — Building apps. Improving open source. Python, TypeScript and SQL.</title>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .muted{fill:var(--muted)}
+.signal{animation:wave 7s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.pulse{animation:pulse 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.packet{stroke-dasharray:30 300;animation:travel 7s linear infinite}
+.trace{animation:trace 7s ease-in-out infinite;transform-box:fill-box;transform-origin:left}
+.orbit{animation:orbit 18s linear infinite;transform-origin:1050px 195px}
+.check{animation:check 7s ease-in-out infinite}
+@keyframes wave{0%,100%{transform:scaleY(.5);opacity:.35}50%{transform:scaleY(1);opacity:.9}}
+@keyframes pulse{0%,100%{transform:scale(.85);opacity:.45}50%{transform:scale(1.15);opacity:1}}
+@keyframes travel{to{stroke-dashoffset:-660}}
+@keyframes trace{0%,100%{transform:scaleX(.55)}50%{transform:scaleX(1)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes check{0%,100%{opacity:.4}40%{opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><radialGradient id="glow"><stop stop-color="#178262" stop-opacity=".16"/><stop offset="1" stop-color="#fcfdfc" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="440" rx="22" fill="#fcfdfc"/>
+
+<ellipse cx="1000" cy="160" rx="330" ry="270" fill="url(#glow)"/>
+<circle class="pulse" cx="51" cy="54" r="6" fill="#178262"/>
+<text x="72" y="62" fill="#53665b" font-size="24" letter-spacing="4">AKSHAT MISHRA</text>
+<text x="44" y="168" fill="#14261f" font-size="76" font-weight="600" letter-spacing="-4">Building apps.</text>
+<text x="44" y="255" fill="#14261f" font-size="76" font-weight="600" letter-spacing="-4">Improving open source.</text>
+<text x="47" y="323" fill="#53665b" font-size="28">Python · TypeScript · SQL</text>
+<text x="47" y="371" fill="#53665b" font-size="24">Build with purpose. Follow the evidence. Keep improving.</text>
+<rect class="signal" x="890" y="183.0" width="3" height="34" rx="1.5" fill="#178262" style="animation-delay:-0.00s"/><rect class="signal" x="898" y="162.5" width="3" height="75" rx="1.5" fill="#178262" style="animation-delay:-0.23s"/><rect class="signal" x="906" y="142.0" width="3" height="116" rx="1.5" fill="#178262" style="animation-delay:-0.46s"/><rect class="signal" x="914" y="172.5" width="3" height="55" rx="1.5" fill="#178262" style="animation-delay:-0.69s"/><rect class="signal" x="922" y="126.0" width="3" height="148" rx="1.5" fill="#178262" style="animation-delay:-0.92s"/><rect class="signal" x="930" y="154.0" width="3" height="92" rx="1.5" fill="#178262" style="animation-delay:-1.15s"/><rect class="signal" x="938" y="168.0" width="3" height="64" rx="1.5" fill="#178262" style="animation-delay:-1.38s"/><rect class="signal" x="946" y="183.0" width="3" height="34" rx="1.5" fill="#178262" style="animation-delay:-1.61s"/><rect class="signal" x="954" y="162.5" width="3" height="75" rx="1.5" fill="#178262" style="animation-delay:-1.84s"/><rect class="signal" x="962" y="142.0" width="3" height="116" rx="1.5" fill="#178262" style="animation-delay:-2.07s"/><rect class="signal" x="970" y="172.5" width="3" height="55" rx="1.5" fill="#178262" style="animation-delay:-2.30s"/><rect class="signal" x="978" y="126.0" width="3" height="148" rx="1.5" fill="#178262" style="animation-delay:-2.53s"/><rect class="signal" x="986" y="154.0" width="3" height="92" rx="1.5" fill="#178262" style="animation-delay:-2.76s"/><rect class="signal" x="994" y="168.0" width="3" height="64" rx="1.5" fill="#178262" style="animation-delay:-2.99s"/><rect class="signal" x="1002" y="183.0" width="3" height="34" rx="1.5" fill="#178262" style="animation-delay:-3.22s"/><rect class="signal" x="1010" y="162.5" width="3" height="75" rx="1.5" fill="#178262" style="animation-delay:-3.45s"/><rect class="signal" x="1018" y="142.0" width="3" height="116" rx="1.5" fill="#178262" style="animation-delay:-3.68s"/><rect class="signal" x="1026" y="172.5" width="3" height="55" rx="1.5" fill="#178262" style="animation-delay:-3.91s"/><rect class="signal" x="1034" y="126.0" width="3" height="148" rx="1.5" fill="#178262" style="animation-delay:-4.14s"/><rect class="signal" x="1042" y="154.0" width="3" height="92" rx="1.5" fill="#178262" style="animation-delay:-4.37s"/><rect class="signal" x="1050" y="168.0" width="3" height="64" rx="1.5" fill="#178262" style="animation-delay:-4.60s"/><rect class="signal" x="1058" y="183.0" width="3" height="34" rx="1.5" fill="#178262" style="animation-delay:-4.83s"/><rect class="signal" x="1066" y="162.5" width="3" height="75" rx="1.5" fill="#178262" style="animation-delay:-5.06s"/><rect class="signal" x="1074" y="142.0" width="3" height="116" rx="1.5" fill="#178262" style="animation-delay:-5.29s"/><rect class="signal" x="1082" y="172.5" width="3" height="55" rx="1.5" fill="#178262" style="animation-delay:-5.52s"/><rect class="signal" x="1090" y="126.0" width="3" height="148" rx="1.5" fill="#178262" style="animation-delay:-5.75s"/><rect class="signal" x="1098" y="154.0" width="3" height="92" rx="1.5" fill="#178262" style="animation-delay:-5.98s"/><rect class="signal" x="1106" y="168.0" width="3" height="64" rx="1.5" fill="#178262" style="animation-delay:-6.21s"/><rect class="signal" x="1114" y="183.0" width="3" height="34" rx="1.5" fill="#178262" style="animation-delay:-6.44s"/><rect class="signal" x="1122" y="162.5" width="3" height="75" rx="1.5" fill="#178262" style="animation-delay:-6.67s"/>
+<path d="M46 410 H1154" stroke="#dae5dc" fill="none"/>
+<path class="packet" d="M46 410 H1154" stroke="#178262" stroke-width="2" fill="none"/>
+
+</svg>

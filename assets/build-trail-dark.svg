@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="162" viewBox="0 0 1200 162" role="img" aria-labelledby="title" style="--bg:#0c1513;--panel:#13221d;--ink:#e2efe8;--muted:#a0b8aa;--line:#2a3e33;--accent:#37c69b">
+<title id="title">Build → Test → Contribute</title>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .muted{fill:var(--muted)}
+.signal{animation:wave 7s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.pulse{animation:pulse 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.packet{stroke-dasharray:30 300;animation:travel 7s linear infinite}
+.trace{animation:trace 7s ease-in-out infinite;transform-box:fill-box;transform-origin:left}
+.orbit{animation:orbit 18s linear infinite;transform-origin:1050px 195px}
+.check{animation:check 7s ease-in-out infinite}
+@keyframes wave{0%,100%{transform:scaleY(.5);opacity:.35}50%{transform:scaleY(1);opacity:.9}}
+@keyframes pulse{0%,100%{transform:scale(.85);opacity:.45}50%{transform:scale(1.15);opacity:1}}
+@keyframes travel{to{stroke-dashoffset:-660}}
+@keyframes trace{0%,100%{transform:scaleX(.55)}50%{transform:scaleX(1)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes check{0%,100%{opacity:.4}40%{opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><radialGradient id="glow"><stop stop-color="#37c69b" stop-opacity=".16"/><stop offset="1" stop-color="#0c1513" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="162" rx="22" fill="#0c1513"/>
+<path d="M150 74 H1050" stroke="#2a3e33" stroke-width="2" fill="none"/><path class="packet" d="M150 74 H1050" stroke="#37c69b" stroke-width="3" fill="none"/><circle cx="150" cy="74" r="18" fill="#0c1513" stroke="#2a3e33" stroke-width="2"/><circle class="pulse" cx="150" cy="74" r="7" fill="#37c69b" style="animation-delay:-0s"/><text x="150" y="130" text-anchor="middle" font-size="26" letter-spacing="3" fill="#a0b8aa">BUILD</text><circle cx="600" cy="74" r="18" fill="#0c1513" stroke="#2a3e33" stroke-width="2"/><circle class="pulse" cx="600" cy="74" r="7" fill="#37c69b" style="animation-delay:-2s"/><text x="600" y="130" text-anchor="middle" font-size="26" letter-spacing="3" fill="#a0b8aa">TEST</text><circle cx="1050" cy="74" r="18" fill="#0c1513" stroke="#2a3e33" stroke-width="2"/><circle class="pulse" cx="1050" cy="74" r="7" fill="#37c69b" style="animation-delay:-4s"/><text x="1050" y="130" text-anchor="middle" font-size="26" letter-spacing="3" fill="#a0b8aa">CONTRIBUTE</text>
+</svg>

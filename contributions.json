@@ -1,0 +1,61 @@
+{
+  "checked_on": "2026-11-16",
+  "prs": [
+    {
+      "name": "SQLFluff",
+      "detail": "DuckDB CREATE SECRET / DROP SECRET parsing and regression fixtures",
+      "url": "https://github.com/sqlfluff/sqlfluff/pull/9155",
+      "number": 9155,
+      "state": "Merged",
+      "merged_at": "2026-11-15T01:02:03Z"
+    },
+    {
+      "name": "GmailCleaner",
+      "detail": "Ruff checks in CI and cleanup of existing findings",
+      "url": "https://github.com/akadeepesh/GmailCleaner/pull/24",
+      "number": 24,
+      "state": "Merged",
+      "merged_at": "2026-11-16T14:15:54Z"
+    },
+    {
+      "name": "Rowsetta",
+      "detail": "Installed package version in the CLI, with regression coverage",
+      "url": "https://github.com/intesarjawad/rowsetta/pull/4",
+      "number": 4,
+      "state": "Merged",
+      "merged_at": "2026-11-14T16:14:29Z"
+    },
+    {
+      "name": "Sklearn-genetic-opt",
+      "detail": "Explain cross-validation MAE versus held-out test MAE",
+      "url": "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/pull/401",
+      "number": 401,
+      "state": "Merged",
+      "merged_at": "2026-11-14T18:15:11Z"
+    },
+    {
+      "name": "Claude Agent SDK",
+      "detail": "Handle malformed parent IDs in session-history reads",
+      "url": "https://github.com/anthropics/claude-agent-sdk-python/pull/1511",
+      "number": 1511,
+      "state": "Open",
+      "merged_at": null
+    },
+    {
+      "name": "Novela",
+      "detail": "Preserve Unicode titles in exported and backup filenames",
+      "url": "https://github.com/akadeepesh/Novela/pull/20",
+      "number": 20,
+      "state": "Open",
+      "merged_at": null
+    },
+    {
+      "name": "Stormfork",
+      "detail": "Actionable CLI errors for invalid timestamps",
+      "url": "https://github.com/intesarjawad/stormfork/pull/4",
+      "number": 4,
+      "state": "Open",
+      "merged_at": null
+    }
+  ]
+}

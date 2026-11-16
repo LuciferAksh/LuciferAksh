@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="288" viewBox="0 0 1200 288" role="img" aria-labelledby="title" style="--bg:#fcfdfc;--panel:#f2f6f3;--ink:#14261f;--muted:#53665b;--line:#dae5dc;--accent:#178262">
+<title id="title">Three recent builds: IncidentLab traces services, RepoLens follows code dependencies, and SkillCheck evaluates coding checks. Illustrative graphics, not application screenshots.</title>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .muted{fill:var(--muted)}
+.signal{animation:wave 7s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.pulse{animation:pulse 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.packet{stroke-dasharray:30 300;animation:travel 7s linear infinite}
+.trace{animation:trace 7s ease-in-out infinite;transform-box:fill-box;transform-origin:left}
+.orbit{animation:orbit 18s linear infinite;transform-origin:1050px 195px}
+.check{animation:check 7s ease-in-out infinite}
+@keyframes wave{0%,100%{transform:scaleY(.5);opacity:.35}50%{transform:scaleY(1);opacity:.9}}
+@keyframes pulse{0%,100%{transform:scale(.85);opacity:.45}50%{transform:scale(1.15);opacity:1}}
+@keyframes travel{to{stroke-dashoffset:-660}}
+@keyframes trace{0%,100%{transform:scaleX(.55)}50%{transform:scaleX(1)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes check{0%,100%{opacity:.4}40%{opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><radialGradient id="glow"><stop stop-color="#178262" stop-opacity=".16"/><stop offset="1" stop-color="#fcfdfc" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="288" rx="22" fill="#fcfdfc"/>
+<rect x="24" y="16" width="364" height="255" rx="16" fill="#f2f6f3"/><text x="48" y="63" font-size="31" font-weight="600" fill="#14261f">IncidentLab</text><text x="48" y="98" font-size="17" letter-spacing="2" fill="#53665b">TRACE THE FAILURE</text><rect x="418" y="16" width="364" height="255" rx="16" fill="#f2f6f3"/><text x="442" y="63" font-size="31" font-weight="600" fill="#14261f">RepoLens</text><text x="442" y="98" font-size="17" letter-spacing="2" fill="#53665b">FOLLOW THE CHANGE</text><rect x="812" y="16" width="364" height="255" rx="16" fill="#f2f6f3"/><text x="836" y="63" font-size="31" font-weight="600" fill="#14261f">SkillCheck</text><text x="836" y="98" font-size="17" letter-spacing="2" fill="#53665b">CHECK THE RESULT</text><rect class="trace" x="48" y="140" width="280" height="13" rx="4" fill="#178262" opacity=".7" style="animation-delay:-0s"/><rect class="trace" x="48" y="178" width="210" height="13" rx="4" fill="#178262" opacity=".7" style="animation-delay:-2s"/><rect class="trace" x="48" y="216" width="125" height="13" rx="4" fill="#178262" opacity=".7" style="animation-delay:-4s"/><path d="M478 182 H718" stroke="#dae5dc" stroke-width="2" fill="none"/><path class="packet" d="M478 182 H718" stroke="#178262" stroke-width="3" fill="none"/><circle cx="480" cy="182" r="23" fill="#fcfdfc" stroke="#dae5dc" stroke-width="2"/><circle class="pulse" cx="480" cy="182" r="8" fill="#178262" style="animation-delay:-0s"/><circle cx="590" cy="182" r="23" fill="#fcfdfc" stroke="#dae5dc" stroke-width="2"/><circle class="pulse" cx="590" cy="182" r="8" fill="#178262" style="animation-delay:-2s"/><circle cx="700" cy="182" r="23" fill="#fcfdfc" stroke="#dae5dc" stroke-width="2"/><circle class="pulse" cx="700" cy="182" r="8" fill="#178262" style="animation-delay:-4s"/><rect x="850" y="149" width="68" height="68" rx="15" fill="#fcfdfc"/><path class="check" d="M868 182 l10 10 23 -25" stroke="#178262" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" style="animation-delay:-0s"/><rect x="950" y="149" width="68" height="68" rx="15" fill="#fcfdfc"/><path class="check" d="M968 182 l10 10 23 -25" stroke="#178262" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" style="animation-delay:-2s"/><rect x="1050" y="149" width="68" height="68" rx="15" fill="#fcfdfc"/><path class="check" d="M1068 182 l10 10 23 -25" stroke="#178262" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" style="animation-delay:-4s"/>
+</svg>
